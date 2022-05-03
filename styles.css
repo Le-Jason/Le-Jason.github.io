@@ -1,3 +1,27 @@
 body{
     background-color: grey;
+    margin:0;
+    padding:0;
+}
+
+
+ul.topsection{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    background-color:rgb(46, 46, 46);
+    
+}
+
+ul.topsection li{
+    display:inline-block;
+    margin: 10px 20px;
+    margin-right:20px;
+}
+ul.topsection li a{
+    text-decoration:none;
+}
+ul.topsection li a:hover{
+    text-decoration:underline;
 }
