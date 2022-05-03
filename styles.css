@@ -1,7 +1,16 @@
 body{
-    background-color: grey;
+    background-color: white;
     margin:0;
     padding:0;
+}
+header{
+    background-color:black;
+    background-image:url("images/spaceimage.png");
+    background-size:100%;
+    background-position:center;
+    height:1000px;
+    padding:0;
+    text-align:center;
 }
 ul.topsection{
     margin:0;
@@ -21,4 +30,11 @@ ul.topsection li a{
 }
 ul.topsection li a:hover{
     text-decoration:underline;
+}
+footer{
+    background:rgb(34, 34, 34);
+    color:grey;
+    font-size:12px;
+    padding:1px 20px;
+    text-align:center;
 }
